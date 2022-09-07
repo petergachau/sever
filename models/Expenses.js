@@ -11,7 +11,7 @@ const tourSchema = mongoose.Schema({
   prevRead: {type:String},
   units: {type:String},
   services: {type:String},
-  
+  others: {type:Number},
 },
 {timestamps:true});
 
